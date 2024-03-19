@@ -468,11 +468,6 @@ h1 em {
     background: #EEEBE5;
 }
 
-.premio__melhor {
-    background: var(--dm_azul_00);
-    color: var(--dm_creme_02);
-}
-
 .programas-de-aceleracao {
     position: relative;
     display: flex;
@@ -963,6 +958,7 @@ input[type="email"],
 
     .comentarios__temos-orgulho {
         height: 300px;
+        padding: 100px 20px;
     }
 
     .comentarios__arrow::before {

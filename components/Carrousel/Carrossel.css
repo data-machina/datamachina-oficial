@@ -48,3 +48,9 @@
 .carrossel__container {
     min-width: 100%;
 }
+
+@media screen and (max-width: 500px) {
+	.comentarios .carrossel__container {
+		padding: 100px 20px;
+	}
+}

@@ -38,7 +38,7 @@ function Header(props: any) {
             <img className="header__logo" src="/dm-logo-name.svg" alt="Data Machina" />
             <nav>
                 <div className="header__dropdown">
-                    <Link className="header__dropdown--link" href="/">data machina</Link>
+                    <div className="header__dropdown--link dm_link">data machina</div>
                     <div className="header__dropdown--items">
                         <button className="header__option" onClick={()=> showScroll("datamachina", "inicio")}>início</button>
                         <button className="header__option" onClick={()=> showScroll("datamachina", "solucoes")}>soluções</button>
