@@ -45,6 +45,7 @@ function Header(props: any) {
                         <button className="header__option" onClick={()=> showScroll("datamachina", "clientes")}>clientes</button>
                         <button className="header__option" onClick={()=> showScroll("datamachina", "premios")}>prêmios</button>
                         <button className="header__option" onClick={()=> showScroll("datamachina", "aceleracoes")}>acelerações</button>
+                        <button className="header__option" onClick={()=> showScroll("datamachina", "finep")}>finep</button>
                         <button className="header__option" onClick={()=> showScroll("datamachina", "contato")}>contato</button>
                     </div>
                 </div>

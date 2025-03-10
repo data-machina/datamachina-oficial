@@ -10,8 +10,9 @@
 	--dm_verde_00: #3e9a00;
 	--dm_preto_00: #2c2c2c;
 	--dm_cinza_01: #606060;
-	--dm_creme_00: #faf6f0;
-	--dm_creme_02: #fdfbf9;
+	--dm_creme_00: #FAF6F0;
+	--dm_creme_01: #EFECE6;
+	--dm_creme_02: #FDFBF9;
 	--margins: 100px;
 }
 
@@ -184,7 +185,6 @@ p {
 	}
 }
 
-
 .conhecer__email {
     display: flex;
     align-items: center;
@@ -203,7 +203,6 @@ p {
     transition: 0.3s;
 }
 
-
 .conhecer__nos {
     position: relative;
     background: var(--dm_azul_00);
@@ -214,6 +213,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* FINEP */
+.finep {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+}
+
+.finep__description .title {
+  max-width: 500px;
+}
+
+.finep__description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: var(--dm_creme_02);
+}
+
+.finep__a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.finep__a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
 
 /* Conhecer */
 

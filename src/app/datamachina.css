@@ -8,6 +8,12 @@
     background-position: bottom;
 }
 
+.dm-banner__background {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .dm-banner::after {
     content: '↓';
     position: absolute;
@@ -275,10 +281,9 @@ h1 em {
     align-items: center;
     justify-content: center;
     justify-items: center;
-    background: var(--dm_creme_02);
     gap: 80px 0;
     padding: 100px 140px;
-    background: var(--dm_creme_02);
+    background: var(--dm_creme_01);
 }
 
 .marcas--2 {

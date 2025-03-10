@@ -15,6 +15,9 @@ export default function Datamachina() {
             
             <main>
                 <section className="dm-banner">
+
+                    <img className="dm-banner__background" src="background.png" alt="" />
+
                     <div className="link__ancor" id="inicio"></div>
                     <div className='dm-banner__container'>
                         <div className="dm-banner__texts">
@@ -208,6 +211,20 @@ export default function Datamachina() {
                     <a href="https://www.gov.br/startuppoint/pt-br/programas/ia2-mctic" target="black">
                         <img src="datamachina/logos/ia2.png" alt="" />
                     </a>
+                </section>
+                
+                {/* FINEP */}
+                
+                <section className="finep">
+                  <div className="link__ancor" id="finep"></div>
+                  <div className="finep__description">
+                    <p className="title">Temos o privilégio de ter um projeto fomentado pelo Edital MCTI/Finep Startups IA</p>
+                  </div>
+
+                  <a className="finep__a" href="http://www.finep.gov.br/chamadas-publicas/chamadapublica/676" target="_blank">
+                    <img src="datamachina/img/finep.jpg" alt="" />
+                  </a>
+
                 </section>
             
                 {/* CONHECER */}
