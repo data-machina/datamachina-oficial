@@ -282,7 +282,7 @@ h1 em {
     justify-content: center;
     justify-items: center;
     gap: 80px 0;
-    padding: 100px 140px;
+    padding: 100px 40px;
     background: var(--dm_creme_01);
 }
 
@@ -290,12 +290,8 @@ h1 em {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.marcas img {
-    width: 130px;
-}
-
-.marcas--2 img{
-    width: 140px;
+.marcas .logos__size {
+  width: 160px;
 }
 
 /* Comentários */
@@ -358,7 +354,6 @@ h1 em {
 		transform: translatex(0) rotate(-90deg);
 	}
 }
-
 
 .comentarios .controlls__btn:hover .controlls__circle, .comentarios .controlls__btn--selected .controlls__circle {
     background: var(--dm_cinza_01);
@@ -481,6 +476,18 @@ h1 em {
     height: 400px;
     width: 100%;
     text-align: center;
+}
+
+.programas-de-aceleracao::after {
+  content: '↓';
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  color: var(--dm_creme_02);
+  width: 100%;
+  bottom: 40px;
+  z-index: 2;
+  animation: infinite 4s arrowBanner;
 }
 
 .programas-de-aceleracao p {

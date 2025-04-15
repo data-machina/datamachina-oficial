@@ -64,13 +64,12 @@ export default function Datamachina() {
                             </div>
                         </div>
                         <div className="produtos__contorno">
-                            {/* <img className="produtos__gif-animado" src="datamachina/img/Maplytics-Atualizado.gif" alt="Gif animado de um notbook" /> */}
             
                             <video className="produtos__gif-animado" autoPlay playsInline loop muted>
                                 <source src="./mapalytics.mp4" type="video/mp4" />
                             </video>
                             <div className="produtos__unidade">
-                                <img src="datamachina/img/mapalyticsbranco.svg" alt='Data Machina Mapalytics' />
+                                <img className='logos__size' width="200" height="60" src="datamachina/img/mapalyticsbranco.svg" alt='Data Machina Mapalytics' />
                             </div>
                         </div>
                     </div>
@@ -91,53 +90,53 @@ export default function Datamachina() {
                 {/* MARCAS */}
             
                 <section className="marcas">
-                    <a href="https://www.grupozelo.com/grupo-zelo/pt-br" target="_blank">
-                        <img src="datamachina/logos/Prancheta 1zelo 1.svg" alt="" />
+                    <a href="https://www.grupozelo.com/grupo-zelo/pt-br" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/zelo.svg" alt="zelo" />
                     </a>
-                    <a href="https://www.casabauducco.com.br/" target="_blank">
-                        <img src="datamachina/logos/Prancheta 1bauducco 1.svg" alt="" />
+                    <a href="https://www.casabauducco.com.br/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/bauducco.svg" alt="bauducco" />
                     </a>
-                    <a href="https://www.comgas.com.br/" target="_blank">
-                        <img src="datamachina/logos/comgas.svg" alt="" />
+                    <a href="https://www.comgas.com.br/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/comgas.svg" alt="comgas" />
                     </a>
-                    <a href="https://www.lojasedmil.com.br/" target="_blank">
-                        <img src="datamachina/logos/edmil.png" alt="" />
+                    <a href="https://www.lojasedmil.com.br/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/edmil.png" alt="edmil" />
                     </a>
-                    <a href="https://www.whirlpool.com.br/" target="_blank">
-                        <img src="datamachina/logos/whirlpoll.png" alt="" />
+                    <a href="https://www.whirlpool.com.br/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/whirlpoll.png" alt="whirlpoll" />
                     </a>
-                    <a href="https://www.mrs.com.br/" target="_blank">
-                        <img src="datamachina/logos/mrs.png" alt="" />
+                    <a href="https://www.mrs.com.br/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/mrs.png" alt="mrs" />
                     </a>
-                    <a href="https://trutec.com.br/" target="_blank">
-                        <img src="datamachina/logos/trutec1.png" alt="" />
+                    <a href="https://trutec.com.br/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/trutec1.png" alt="trutec1" />
                     </a>
-                    <a href="https://www.votorantimcimentos.com.br/" target="_blank">
-                        <img src="datamachina/logos/Prancheta 1votorantim 1.svg" alt="" />
+                    <a href="https://www.votorantimcimentos.com.br/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/votorantim.svg" alt="votorantim" />
                     </a>
-                    <a href="https://www.aesbrasil.com.br/pt-br" target="_blank">
-                        <img src="datamachina/logos/aes.svg" alt="" />
+                    <a href="https://www.aesbrasil.com.br/pt-br" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/aes.svg" alt="aes" />
                     </a>
-                    <a href="http://www.gruporeciclabr.com.br/pt/" target="_blank">
-                        <img src="datamachina/logos/recicla.png" alt="" />
+                    <a href="http://www.gruporeciclabr.com.br/pt/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/recicla.png" alt="recicla" />
                     </a>
-                    <a href="http://www.labcidade.fau.usp.br/" target="_blank">
-                        <img src="datamachina/logos/labcidade.png" alt="" />
+                    <a href="http://www.labcidade.fau.usp.br/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/labcidade.png" alt="labcidade" />
                     </a>
-                    <a href="https://cestanobre.com.br/" target="_blank">
-                        <img src="datamachina/logos/nobrecesta.png" alt="" />
+                    <a href="https://cestanobre.com.br/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/nobrecesta.png" alt="nobrecesta" />
                     </a>
-                    <a href="https://www.poloplanejamento.com/" target="_blank">
-                        <img src="datamachina/logos/polo.png" alt="" />
+                    <a href="https://www.poloplanejamento.com/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/polo.png" alt="polo" />
                     </a>
-                    <a href="https://mercadofavo.com/" target="_blank">
-                        <img src="datamachina/logos/favo.svg" alt="" />
+                    <a href="https://mercadofavo.com/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/favo.svg" alt="favo" />
                     </a>
-                    <a href="https://www.trust.com.br/" target="_blank">
-                        <img src="datamachina/logos/Prancheta 1trust.svg" alt="" />
+                    <a href="https://www.trust.com.br/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/trust.svg" alt="trust" />
                     </a>
-                    <a href="https://www.bhrgastronomia.com.br/" target="_blank">
-                        <img src="datamachina/logos/bhr.png" alt="" />
+                    <a href="https://www.bhrgastronomia.com.br/" target="_blank" aria-label="">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/bhr.png" alt="bhr" />
                     </a>
                 </section>
             
@@ -151,7 +150,7 @@ export default function Datamachina() {
                     </div>
                     <Carrossel data-carrossel="carousel-data">
                         <section className="carrossel__container">
-                            <img className="comentarios__img" src="datamachina/logos/whirlpoll.png" />
+                            <img className="comentarios__img" src="datamachina/logos/whirlpoll.png" alt='Logo Whirlpool'/>
                             <p className='comentarios__texts'>
                                 "A Data Machina entendeu a nossa necessidade de uma forma muito rápida e tem nos ajudado
                                 a converter os desafios em oportunidades"
@@ -160,7 +159,7 @@ export default function Datamachina() {
                         </section>
             
                         <section className="carrossel__container">
-                            <img className="comentarios__img" src="datamachina/logos/polo.png" />
+                            <img className="comentarios__img" src="datamachina/logos/polo.png" alt='Logo Polo' />
                             <p className='comentarios__texts'>
                                 "A Data Machina nos ajudou a agilizar nosso processo de pesquisa. De forma muito
                                 inovadora conseguimos ter resultados acima do esperado."
@@ -180,7 +179,7 @@ export default function Datamachina() {
                             <p className="title">
                                 Muito trabalho só <br /> poderia resultar em <br /> reconhecimento
                             </p>
-                            <img className='premio__logo--img' src="datamachina/img/top100.jpg" alt="top100" />
+                            <img className='premio__logo--img' src="datamachina/img/top100.jpg" alt="Ranking Top 100 Open Startups" />
             
                             <p className="p-premio">Fomos reconhecidos no Prêmio <strong><em>100 Open Startups</em></strong> pelo <strong>3º ano consecutivo</strong> como uma das melhores <strong><em>citytechs</em></strong> do <strong>Brasil</strong>.</p>
                         </div>
@@ -193,28 +192,31 @@ export default function Datamachina() {
                 </section>
             
                 <section className="marcas marcas--2" id="clientes">
-                    <a href="http://adesampa.com.br/" target="black">
-                        <img src="datamachina/logos/adesampa.png" alt="" />
-                    </a>
-                    <a href="https://www.inovativabrasil.com.br/" target="black">
-                        <img src="datamachina/logos/inovabrasil.png" alt="" />
-                    </a>
-                    <a href="https://www.capital.sp.gov.br/" target="black">
-                        <img src="datamachina/logos/prefeituradesp.svg" alt="" />
-                    </a>
-                    <a href="https://vedacit.com.br/" target="black">
-                        <img src="datamachina/logos/vedacitlabs.png" alt="" />
-                    </a>
-                    <a href="https://softex.br/" target="black">
-                        <img src="datamachina/logos/softex.png" alt="" />
-                    </a>
-                    <a href="https://www.gov.br/startuppoint/pt-br/programas/ia2-mctic" target="black">
-                        <img src="datamachina/logos/ia2.png" alt="" />
-                    </a>
+                    <img className='logos__size' width="200" height="60" src="datamachina/logos/fapesp.png" alt="fapesp" />
+                    <img className='logos__size' width="200" height="60" src="datamachina/logos/adesampa.png" alt="adesampa" />
+                    <img className='logos__size' width="200" height="60" src="datamachina/logos/inovabrasil.png" alt="inovabrasil" />
+                    <img className='logos__size' width="200" height="60" src="datamachina/logos/vedacitlabs.png" alt="vedacitlabs" />
+                    <img className='logos__size' width="200" height="60" src="datamachina/logos/softex.png" alt="softex" />
+                    <img className='logos__size' width="200" height="60" src="datamachina/logos/liga.png" alt="liga" />
                 </section>
                 
+                {/* Agencias */}
+
+                <section className='agencias'>
+                  <p className='title agencias__p'>Contamos com o apoio de agências de fomento <br /> para impulsionar nossos projetos.</p>
+                  <img className='arrow' src="" alt="" />
+                </section>
+
+                <section className='agencias__grid'>
+                    <img className='logos__size' width="200" height="60" src="datamachina/logos/fapesp.png" alt="fapesp" />
+                    <a href="https://www.capital.sp.gov.br/" target="black">
+                        <img className='logos__size' width="200" height="60" src="datamachina/logos/prefeituradesp.svg" alt="prefeituradesp" />
+                    </a>
+                    <img className='logos__size' width="200" height="60" src="datamachina/logos/mcti.png" alt="mcti" />
+                    <img className='logos__size' width="200" height="60" src="datamachina/logos/arsesp.svg" alt="arsesp" />
+                </section>
+
                 {/* FINEP */}
-                
                 <section className="finep">
                   <div className="link__ancor" id="finep"></div>
                   <div className="finep__description">
@@ -222,7 +224,7 @@ export default function Datamachina() {
                   </div>
 
                   <a className="finep__a" href="http://www.finep.gov.br/chamadas-publicas/chamadapublica/676" target="_blank">
-                    <img src="datamachina/img/finep.jpg" alt="" />
+                    <img width="500" height="500" src="datamachina/img/finep.jpg" alt="finep" />
                   </a>
 
                 </section>

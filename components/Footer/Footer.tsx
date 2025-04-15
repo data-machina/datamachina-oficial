@@ -34,36 +34,36 @@ export const Footer = (props: any) => {
     }
 
     return (
-            <footer>
-                <div className="footer__container">
-                    <img className="footer__logo" src="/dm-logo-name.svg" alt="" />
+        <footer>
+            <div className="footer__container">
+                <img className="footer__logo" src="/dm-logo-name.svg" alt="" />
 
-                    <div className="footer__empresa">
-                        <Link className="footer__first" href="/">data machina</Link>
-                        <button className="footer__links" onClick={()=> showScroll("datamachina", "inicio")}>início</button>
-                        <button className="footer__links" onClick={()=> showScroll("datamachina", "solucoes")}>soluções</button>
-                        <button className="footer__links" onClick={()=> showScroll("datamachina", "clientes")}>clientes</button>
-                        <button className="footer__links" onClick={()=> showScroll("datamachina", "premios")}>prêmios</button>
-                        <button className="footer__links" onClick={()=> showScroll("datamachina", "aceleracoes")}>aceleração</button>
-                        <button className="footer__links" onClick={()=> showScroll("datamachina", "contato")}>contato</button>
-                    </div>
+                  <div className="footer__empresa">
+                      <Link className="footer__first" href="/">data machina</Link>
+                      <button className="footer__links" onClick={()=> showScroll("datamachina", "inicio")}>início</button>
+                      <button className="footer__links" onClick={()=> showScroll("datamachina", "solucoes")}>soluções</button>
+                      <button className="footer__links" onClick={()=> showScroll("datamachina", "clientes")}>clientes</button>
+                      <button className="footer__links" onClick={()=> showScroll("datamachina", "premios")}>prêmios</button>
+                      <button className="footer__links" onClick={()=> showScroll("datamachina", "aceleracoes")}>aceleração</button>
+                      <button className="footer__links" onClick={()=> showScroll("datamachina", "contato")}>contato</button>
+                  </div>
 
-                    <div className="footer__sociais">
-                        <div className="footer__link">
-                            <a href="https://www.instagram.com/data.machina/" target="blank" aria-label="Estamos no Instagram!">
-                                <img src="/icones/instagram.svg" alt="" />
-                            </a>
-                            <a href="https://www.linkedin.com/company/datamachina" target="blank" aria-label="Estamos no LinkedIn!">
-                            <img src="/icones/linkedin.svg" alt="" />
-                        </a>
-                        <a href="https://www.youtube.com/channel/UC53uChh4XmLF6-CwT6G_UJw" target="blank" aria-label="Estamos no Yotuube!">
-                            <img src="/icones/youtube.svg" alt="" />
-                        </a>
+                  <div className="footer__sociais">
+                      <div className="footer__link">
+                          <a href="https://www.instagram.com/data.machina/" target="blank" aria-label="Estamos no Instagram!">
+                              <img src="/icones/instagram.svg" alt="Instagram Data Machina" />
+                          </a>
+                          <a href="https://www.linkedin.com/company/datamachina" target="blank" aria-label="Estamos no LinkedIn!">
+                              <img src="/icones/linkedin.svg" alt="LinkedIn Data Machina" />
+                          </a>
+                          <a href="https://www.youtube.com/channel/UC53uChh4XmLF6-CwT6G_UJw" target="blank" aria-label="Estamos no Youtube!">
+                              <img src="/icones/youtube.svg" alt="Youtube Data Machina" />
+                          </a>
                     </div>
                     <a className="footer__button--border" href='https://drive.google.com/drive/folders/1JROi6IP1GcIUxz8vNDe-Pk0SZtx0Kcdd?usp=sharing' target='_black'>material de imprensa</a>
                 </div>
             </div>
-           
+            
             <div className="footer__bottom">
                 <div className="footer__bottom--items">
                     <div className="dm-footer__mapalytics dm-footer--after">
@@ -76,7 +76,7 @@ export const Footer = (props: any) => {
                 <div className="footer__bottom--items">
                     <p>Data Machina - 2024</p>
                     <a href="http://tre.art.br/" target="black">
-                        <img className="footer__tre" src="/tre.svg" alt="" />
+                        <img className="footer__tre" src="/tre.svg" alt="Tre" />
                     </a>
                 </div>
             </div>
