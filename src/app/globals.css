@@ -261,9 +261,12 @@ p {
 
 /* FINEP */
 .finep {
+    justify-content: center;
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr max-content;
+    display: flex;
+    width: 100%;
+    padding: 50px 0;
+    background: #fff;
 }
 
 .finep__description .title {
@@ -275,18 +278,21 @@ p {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: var(--dm_creme_02);
 }
 
 .finep__a {
-    display: block;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: max-content;
     height: 100%;
+    background: #fff;
 }
 
 .finep__a img {
-    width: 100%;
+    width: calc(100% - 40px);
     height: 100%;
+    max-width: 600px;
+    margin: auto;
     object-fit: cover;
 } 
 
@@ -379,6 +385,15 @@ p {
 	br {
 		display: none;
 	}
+
+  .agencias__grid {
+    display: flex;  
+    flex-direction: column;
+  }
+
+  .logos__size {
+    width: 100px !important;
+  }
 }
 
 

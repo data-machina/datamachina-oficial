@@ -3,6 +3,7 @@
     background-image: url("../../public/datamachina/img/elementos/background.png");
     background-size: 100vw;
     height: calc(100vh - 100px);
+    min-height: 600px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -12,6 +13,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+  min-height: 800px;
 }
 
 .dm-banner::after {

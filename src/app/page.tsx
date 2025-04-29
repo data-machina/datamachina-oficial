@@ -219,9 +219,6 @@ export default function Datamachina() {
                 {/* FINEP */}
                 <section className="finep">
                   <div className="link__ancor" id="finep"></div>
-                  <div className="finep__description">
-                    <p className="title">Temos o privilégio de ter um projeto fomentado pelo Edital MCTI/Finep Startups IA</p>
-                  </div>
 
                   <a className="finep__a" href="http://www.finep.gov.br/chamadas-publicas/chamadapublica/676" target="_blank">
                     <img width="500" height="500" src="datamachina/img/finep.jpg" alt="finep" />
